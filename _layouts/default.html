@@ -98,23 +98,23 @@
   </header>
   
   <nav class="nav">
-    {% if page.lang == 'fr' %}
-      <a href="/fr/">Accueil</a>
-      <a href="/fr/destinations/">Destinations</a>
-      <a href="/fr/about/">Qui sommes-nous ?</a>
-      <a href="/fr/guides/">Guides</a>
-    {% else %}
-      <a href="/en/">Home</a>
-      <a href="/en/destinations/">Destinations</a>
-      <a href="/en/about/">About Us</a>
-      <a href="/en/guides/">Guides</a>
-    {% endif %}
-    
-    <span class="lang-switch">
-      <a href="/fr/" class="{% if page.lang == 'fr' %}active{% endif %}">🇫🇷 FR</a>
-      <a href="/en/" class="{% if page.lang == 'en' %}active{% endif %}">🇬🇧 EN</a>
-    </span>
-  </nav>
+  {% if page.lang == 'fr' %}
+    <a href="/ourlifeabroad/fr/">Accueil</a>
+    <a href="/ourlifeabroad/fr/destinations/">Destinations</a>
+    <a href="/ourlifeabroad/fr/about/">Qui sommes-nous ?</a>
+    <a href="/ourlifeabroad/fr/guides/">Guides</a>
+  {% else %}
+    <a href="/ourlifeabroad/en/">Home</a>
+    <a href="/ourlifeabroad/en/destinations/">Destinations</a>
+    <a href="/ourlifeabroad/en/about/">About Us</a>
+    <a href="/ourlifeabroad/en/guides/">Guides</a>
+  {% endif %}
+  
+  <span class="lang-switch">
+    <a href="/ourlifeabroad/fr/" class="{% if page.lang == 'fr' %}active{% endif %}">🇫🇷 FR</a>
+    <a href="/ourlifeabroad/en/" class="{% if page.lang == 'en' %}active{% endif %}">🇬🇧 EN</a>
+  </span>
+</nav>
   
   <main class="container">
     {{ content }}
