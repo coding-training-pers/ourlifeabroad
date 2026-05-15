@@ -20,7 +20,7 @@ Depuis 10 ans, on explore le monde à notre rythme. Voici toutes les destination
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇮🇩 Bali</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">L'île des dieux - Temples, rizières, et vie de digital nomad</p>
-      <a href="/fr/destinations/bali/" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
+      <a href="{{ '/fr/destinations/bali/' | relative_url }}" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
     </div>
   </div>
 
@@ -29,7 +29,7 @@ Depuis 10 ans, on explore le monde à notre rythme. Voici toutes les destination
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇻🇳 Vietnam</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">Du Nord au Sud - Street food et paysages à couper le souffle</p>
-      <a href="/fr/destinations/vietnam/" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
+      <a href="{{ '/fr/destinations/vietnam/' | relative_url }}" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
     </div>
   </div>
 
@@ -38,7 +38,7 @@ Depuis 10 ans, on explore le monde à notre rythme. Voici toutes les destination
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇹🇭 Thaïlande</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">Temples dorés et plages paradisiaques</p>
-      <a href="/fr/destinations/thailande/" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
+      <a href="{{ '/fr/destinations/thailande/' | relative_url }}" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
     </div>
   </div>
 
@@ -47,7 +47,7 @@ Depuis 10 ans, on explore le monde à notre rythme. Voici toutes les destination
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇵🇭 Philippines</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">7000 îles de pure beauté</p>
-      <a href="/fr/destinations/philippines/" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
+      <a href="{{ '/fr/destinations/philippines/' | relative_url }}" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
     </div>
   </div>
 
@@ -64,7 +64,7 @@ Depuis 10 ans, on explore le monde à notre rythme. Voici toutes les destination
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇦🇷 Salta, Argentine</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">La belle du Nord - Déserts et empanadas</p>
-      <a href="/fr/destinations/salta/" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
+      <a href="{{ '/fr/destinations/salta/' | relative_url }}" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
     </div>
   </div>
 
@@ -73,7 +73,7 @@ Depuis 10 ans, on explore le monde à notre rythme. Voici toutes les destination
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇵🇾 Asunción, Paraguay</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">La cachée d'Amérique du Sud</p>
-      <a href="/fr/destinations/asuncion/" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
+      <a href="{{ '/fr/destinations/asuncion/' | relative_url }}" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
     </div>
   </div>
 
@@ -82,7 +82,7 @@ Depuis 10 ans, on explore le monde à notre rythme. Voici toutes les destination
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇵🇪 Lima, Pérou</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">Capitale gastronomique - Ceviche et culture</p>
-      <a href="/fr/destinations/lima/" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
+      <a href="{{ '/fr/destinations/lima/' | relative_url }}" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
     </div>
   </div>
 
@@ -91,7 +91,7 @@ Depuis 10 ans, on explore le monde à notre rythme. Voici toutes les destination
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇵🇪 Arequipa, Pérou</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">La ville blanche au pied des volcans</p>
-      <a href="/fr/destinations/arequipa/" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
+      <a href="{{ '/fr/destinations/arequipa/' | relative_url }}" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
     </div>
   </div>
 
@@ -108,7 +108,7 @@ Depuis 10 ans, on explore le monde à notre rythme. Voici toutes les destination
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇦🇺 Australie</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">8 ans de vie aussie - De Sydney à Perth</p>
-      <a href="/fr/destinations/australie/" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
+      <a href="{{ '/fr/destinations/australie/' | relative_url }}" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
     </div>
   </div>
 

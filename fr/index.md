@@ -25,9 +25,9 @@ Pas de rush, pas de checklist touristique. On s'installe 1 à 2 mois par ville p
 {% assign posts_fr = site.posts | where: "lang", "fr" %}
 {% for post in posts_fr limit:5 %}
 <div style="margin: 2rem 0; padding: 1.5rem; background: #f9f9f9; border-radius: 8px;">
-  <h3><a href="{{ post.url }}" style="color: #667eea; text-decoration: none;">{{ post.title }}</a></h3>
+  <h3><a href="{{ post.url | relative_url }}" style="color: #667eea; text-decoration: none;">{{ post.title }}</a></h3>
   <p style="color: #666; margin: 0.5rem 0;">{{ post.date | date: "%d/%m/%Y" }} • Par {{ site.authors[post.author].name }}</p>
   <p>{{ post.excerpt | strip_html | truncate: 200 }}</p>
-  <a href="{{ post.url }}" style="color: #764ba2; font-weight: 500;">Lire la suite →</a>
+  <a href="{{ post.url | relative_url }}" style="color: #764ba2; font-weight: 500;">Lire la suite →</a>
 </div>
 {% endfor %}

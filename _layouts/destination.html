@@ -37,7 +37,7 @@ layout: default
   </div>
   
   <footer class="destination-footer">
-    <a href="{% if page.lang == 'fr' %}/fr/destinations/{% else %}/en/destinations/{% endif %}" class="back-link">← Retour aux destinations</a>
+    <a href="{% if page.lang == 'fr' %}{{ '/fr/destinations/' | relative_url }}{% else %}{{ '/en/destinations/' | relative_url }}{% endif %}" class="back-link">← Retour aux destinations</a>
   </footer>
 </article>
 

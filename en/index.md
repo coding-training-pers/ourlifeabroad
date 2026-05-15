@@ -25,9 +25,9 @@ No rushing, no tourist checklists. We settle in each city for 1-2 months to live
 {% assign posts_en = site.posts | where: "lang", "en" %}
 {% for post in posts_en limit:5 %}
 <div style="margin: 2rem 0; padding: 1.5rem; background: #f9f9f9; border-radius: 8px;">
-  <h3><a href="{{ post.url }}" style="color: #667eea; text-decoration: none;">{{ post.title }}</a></h3>
+  <h3><a href="{{ post.url | relative_url }}" style="color: #667eea; text-decoration: none;">{{ post.title }}</a></h3>
   <p style="color: #666; margin: 0.5rem 0;">{{ post.date | date: "%d/%m/%Y" }} • By {{ site.authors[post.author].name }}</p>
   <p>{{ post.excerpt | strip_html | truncate: 200 }}</p>
-  <a href="{{ post.url }}" style="color: #764ba2; font-weight: 500;">Read more →</a>
+  <a href="{{ post.url | relative_url }}" style="color: #764ba2; font-weight: 500;">Read more →</a>
 </div>
 {% endfor %}

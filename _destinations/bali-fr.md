@@ -9,8 +9,7 @@ duration: "2 mois"
 highlight: "Ubud et ses rizières en terrasse"
 budget_day: "25-35€"
 permalink: /fr/destinations/bali/
-cover_image: https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1200
----
+cover_image: /ourlifeabroad/assets/images/destinations/bali/cover.jpg
 
 # 🇮🇩 Bali - L'Île des Dieux
 

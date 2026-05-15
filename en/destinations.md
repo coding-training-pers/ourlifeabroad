@@ -20,7 +20,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇮🇩 Bali</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">Island of the Gods - Temples, rice terraces & digital nomad life</p>
-      <a href="/en/destinations/bali/" style="color: #667eea; font-weight: 500;">View photos →</a>
+      <a href="{{ '/en/destinations/bali/' | relative_url }}" style="color: #667eea; font-weight: 500;">View photos →</a>
     </div>
   </div>
 
@@ -29,7 +29,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇻🇳 Vietnam</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">North to South - Street food & breathtaking landscapes</p>
-      <a href="/en/destinations/vietnam/" style="color: #667eea; font-weight: 500;">View photos →</a>
+      <a href="{{ '/en/destinations/vietnam/' | relative_url }}" style="color: #667eea; font-weight: 500;">View photos →</a>
     </div>
   </div>
 
@@ -38,7 +38,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇹🇭 Thailand</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">Golden temples & paradise beaches</p>
-      <a href="/en/destinations/thailand/" style="color: #667eea; font-weight: 500;">View photos →</a>
+      <a href="{{ '/en/destinations/thailand/' | relative_url }}" style="color: #667eea; font-weight: 500;">View photos →</a>
     </div>
   </div>
 
@@ -47,7 +47,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇵🇭 Philippines</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">7,000 islands of pure beauty</p>
-      <a href="/en/destinations/philippines/" style="color: #667eea; font-weight: 500;">View photos →</a>
+      <a href="{{ '/en/destinations/philippines/' | relative_url }}" style="color: #667eea; font-weight: 500;">View photos →</a>
     </div>
   </div>
 
@@ -64,7 +64,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇦🇷 Salta, Argentina</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">Northern beauty - Deserts & empanadas</p>
-      <a href="/en/destinations/salta/" style="color: #667eea; font-weight: 500;">View photos →</a>
+      <a href="{{ '/en/destinations/salta/' | relative_url }}" style="color: #667eea; font-weight: 500;">View photos →</a>
     </div>
   </div>
 
@@ -73,7 +73,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇵🇾 Asunción, Paraguay</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">South America's hidden gem</p>
-      <a href="/en/destinations/asuncion/" style="color: #667eea; font-weight: 500;">View photos →</a>
+      <a href="{{ '/en/destinations/asuncion/' | relative_url }}" style="color: #667eea; font-weight: 500;">View photos →</a>
     </div>
   </div>
 
@@ -82,7 +82,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇵🇪 Lima, Peru</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">Gastronomic capital - Ceviche & culture</p>
-      <a href="/en/destinations/lima/" style="color: #667eea; font-weight: 500;">View photos →</a>
+      <a href="{{ '/en/destinations/lima/' | relative_url }}" style="color: #667eea; font-weight: 500;">View photos →</a>
     </div>
   </div>
 
@@ -91,7 +91,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇵🇪 Arequipa, Peru</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">The white city at the foot of volcanos</p>
-      <a href="/en/destinations/arequipa/" style="color: #667eea; font-weight: 500;">View photos →</a>
+      <a href="{{ '/en/destinations/arequipa/' | relative_url }}" style="color: #667eea; font-weight: 500;">View photos →</a>
     </div>
   </div>
 
@@ -108,7 +108,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇦🇺 Australia</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">8 years of Aussie life - Sydney to Perth</p>
-      <a href="/en/destinations/australia/" style="color: #667eea; font-weight: 500;">View photos →</a>
+      <a href="{{ '/en/destinations/australia/' | relative_url }}" style="color: #667eea; font-weight: 500;">View photos →</a>
     </div>
   </div>
 
