@@ -2,6 +2,8 @@
 layout: default
 lang: en
 title: Home
+permalink: /en/
+
 ---
 
 # Welcome to Our Life Abroad 🌍

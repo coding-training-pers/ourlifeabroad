@@ -2,6 +2,8 @@
 layout: default
 lang: fr
 title: Accueil
+permalink: /fr/
+
 ---
 
 # Bienvenue sur Notre Vie à l'Étranger 🌍
