@@ -1,0 +1,24 @@
+# Traductions FR/EN
+fr:
+  site_title: "Notre Vie à l'Étranger"
+  tagline: "Couple français en slow travel - La vraie vie de nomades"
+  nav:
+    home: "Accueil"
+    destinations: "Destinations"
+    about: "Qui sommes-nous ?"
+    guides: "Guides"
+  read_more: "Lire la suite"
+  written_by: "Écrit par"
+  posted_on: "Publié le"
+  
+en:
+  site_title: "Our Life Abroad"
+  tagline: "French couple slow traveling - Real nomad life, unfiltered"
+  nav:
+    home: "Home"
+    destinations: "Destinations"
+    about: "About Us"
+    guides: "Guides"
+  read_more: "Read more"
+  written_by: "Written by"
+  posted_on: "Posted on"

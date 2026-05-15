@@ -1,0 +1,71 @@
+# Configuration du site Our Life Abroad
+title: Our Life Abroad
+email: contact@ourlifeabroad.com
+description: >-
+  Couple français en slow travel à travers l'Amérique du Sud et l'Asie.
+  Budgets réels, galères authentiques, bons plans testés.
+
+baseurl: ""
+url: "http://localhost:4000"
+
+# Langues disponibles
+languages: ["fr", "en"]
+default_lang: en
+
+# Informations des auteurs
+authors:
+  romain:
+    name: Romain
+    bio: "Passionné de voyage et aventure. Expert en bons plans budget et équipement nomade."
+    avatar: /assets/images/romain.jpg
+    instagram: votrecompte
+  
+  partner:
+    name: Steph
+    bio: "[Une phrase sur elle/lui]"
+    avatar: /assets/images/partner.jpg
+    instagram: votrecompte
+
+# Réseaux sociaux
+social:
+  instagram: votrecompte
+  youtube: votrecompte
+  tiktok: votrecompte
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Collections pour les destinations
+collections:
+  destinations:
+    output: true
+    permalink: /:collection/:name/
+
+# Paramètres par défaut
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: romain
+      
+  - scope:
+      path: "fr"
+    values:
+      lang: fr
+      
+  - scope:
+      path: "en"
+    values:
+      lang: en

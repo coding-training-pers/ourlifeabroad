@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+  
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f9f9f9;
+    }
+    
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+    .header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    .header p { font-size: 1.1rem; opacity: 0.9; }
+    
+    .nav {
+      background: white;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .nav a {
+      color: #667eea;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    
+    .nav a:hover { color: #764ba2; }
+    
+    .lang-switch {
+      display: inline-block;
+      margin-left: 2rem;
+      padding-left: 2rem;
+      border-left: 2px solid #eee;
+    }
+    
+    .lang-switch a {
+      background: #f0f0f0;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      margin: 0 0.2rem;
+      font-size: 0.9rem;
+    }
+    
+    .lang-switch a.active {
+      background: #667eea;
+      color: white;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    
+    .footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #333;
+      color: white;
+      margin-top: 3rem;
+    }
+    
+    .social-links a {
+      color: white;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+  </header>
+  
+  <nav class="nav">
+    {% if page.lang == 'fr' %}
+      <a href="/fr/">Accueil</a>
+      <a href="/fr/destinations/">Destinations</a>
+      <a href="/fr/about/">Qui sommes-nous ?</a>
+      <a href="/fr/guides/">Guides</a>
+    {% else %}
+      <a href="/en/">Home</a>
+      <a href="/en/destinations/">Destinations</a>
+      <a href="/en/about/">About Us</a>
+      <a href="/en/guides/">Guides</a>
+    {% endif %}
+    
+    <span class="lang-switch">
+      <a href="/fr/" class="{% if page.lang == 'fr' %}active{% endif %}">🇫🇷 FR</a>
+      <a href="/en/" class="{% if page.lang == 'en' %}active{% endif %}">🇬🇧 EN</a>
+    </span>
+  </nav>
+  
+  <main class="container">
+    {{ content }}
+  </main>
+  
+  <footer class="footer">
+    <div class="social-links">
+      {% if site.social.instagram %}
+        <a href="https://instagram.com/{{ site.social.instagram }}" target="_blank">📷 Instagram</a>
+      {% endif %}
+      {% if site.social.youtube %}
+        <a href="https://youtube.com/@{{ site.social.youtube }}" target="_blank">🎥 YouTube</a>
+      {% endif %}
+      {% if site.social.tiktok %}
+        <a href="https://tiktok.com/@{{ site.social.tiktok }}" target="_blank">🎵 TikTok</a>
+      {% endif %}
+    </div>
+    <p style="margin-top: 1rem; opacity: 0.7;">© 2025 Our Life Abroad - Steph & Romain</p>
+  </footer>
+  <footer class="footer">
+    <div class="social-links">
+      {% if site.social.instagram %}
+        <a href="https://instagram.com/{{ site.social.instagram }}" target="_blank">📷 Instagram</a>
+      {% endif %}
+      {% if site.social.youtube %}
+        <a href="https://youtube.com/@{{ site.social.youtube }}" target="_blank">🎥 YouTube</a>
+      {% endif %}
+      {% if site.social.tiktok %}
+        <a href="https://tiktok.com/@{{ site.social.tiktok }}" target="_blank">🎵 TikTok</a>
+      {% endif %}
+    </div>
+    <p style="margin-top: 1rem; opacity: 0.7;">© 2025 Our Life Abroad - Romain & Steph</p>
+  </footer>
+  
+  <!-- Lightbox Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const gallery = document.querySelector('.photo-gallery');
+      if (!gallery) return;
+      
+      const images = gallery.querySelectorAll('img');
+      
+      images.forEach(img => {
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', function() {
+          const lightbox = document.createElement('div');
+          lightbox.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            cursor: pointer;
+          `;
+          
+          const bigImg = document.createElement('img');
+          bigImg.src = this.src;
+          bigImg.style.cssText = `
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            border-radius: 8px;
+          `;
+          
+          lightbox.appendChild(bigImg);
+          document.body.appendChild(lightbox);
+          
+          lightbox.addEventListener('click', () => {
+            document.body.removeChild(lightbox);
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>
+</body>
+</html>
