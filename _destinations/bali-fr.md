@@ -8,7 +8,7 @@ date_visited: "Septembre - Novembre 2023"
 duration: "2 mois"
 highlight: "Ubud et ses rizières en terrasse"
 budget_day: "25-35€"
-permalink: /fr/destinations/bali/
+permalink: /destinations/bali-fr/
 cover_image: /ourlifeabroad/assets/images/destinations/bali/cover.jpg
 
 # 🇮🇩 Bali - L'Île des Dieux
