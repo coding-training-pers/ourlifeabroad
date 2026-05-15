@@ -20,7 +20,7 @@ Depuis 10 ans, on explore le monde à notre rythme. Voici toutes les destination
     <div style="padding: 1.5rem;">
       <h3 style="margin: 0 0 0.5rem 0;">🇮🇩 Bali</h3>
       <p style="color: #666; margin: 0 0 1rem 0;">L'île des dieux - Temples, rizières, et vie de digital nomad</p>
-      <a href="{{ '/fr/destinations/bali/' | relative_url }}" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
+      <a href="/ourlifeabroad/fr/destinations/bali/" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
     </div>
   </div>
 

@@ -49,7 +49,6 @@ exclude:
 collections:
   destinations:
     output: true
-    permalink: /:collection/:name/
 
 # Paramètres par défaut
 defaults:
