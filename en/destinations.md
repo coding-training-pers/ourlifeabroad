@@ -20,7 +20,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
       <div style="height: 200px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
       <div style="padding: 1.5rem;">
         <h3 style="margin: 0 0 0.5rem 0;">🇮🇩 Bali</h3>
-        <p style="color: #666; margin: 0;">Island of the Gods - Temples, rice terraces & digital nomad life</p>
+        <p style="color: #666; margin: 0; height: 3em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.5;">Island of the Gods - Temples, rice terraces & digital nomad life</p>
       </div>
     </div>
   </a>
@@ -30,7 +30,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
       <div style="height: 200px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
       <div style="padding: 1.5rem;">
         <h3 style="margin: 0 0 0.5rem 0;">🇻🇳 Vietnam</h3>
-        <p style="color: #666; margin: 0;">North to South - Street food & breathtaking landscapes</p>
+        <p style="color: #666; margin: 0; height: 3em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.5;">North to South - Street food & breathtaking landscapes</p>
       </div>
     </div>
   </a>
@@ -40,7 +40,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
       <div style="height: 200px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
       <div style="padding: 1.5rem;">
         <h3 style="margin: 0 0 0.5rem 0;">🇹🇭 Thailand</h3>
-        <p style="color: #666; margin: 0;">Golden temples & paradise beaches</p>
+        <p style="color: #666; margin: 0; height: 3em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.5;">Golden temples & paradise beaches</p>
       </div>
     </div>
   </a>
@@ -50,7 +50,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
       <div style="height: 200px; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
       <div style="padding: 1.5rem;">
         <h3 style="margin: 0 0 0.5rem 0;">🇵🇭 Philippines</h3>
-        <p style="color: #666; margin: 0;">7,000 islands of pure beauty</p>
+        <p style="color: #666; margin: 0; height: 3em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.5;">7,000 islands of pure beauty</p>
       </div>
     </div>
   </a>
@@ -68,7 +68,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
       <div style="height: 200px; background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
       <div style="padding: 1.5rem;">
         <h3 style="margin: 0 0 0.5rem 0;">🇦🇷 Salta, Argentina</h3>
-        <p style="color: #666; margin: 0;">Northern beauty - Deserts & empanadas</p>
+        <p style="color: #666; margin: 0; height: 3em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.5;">Northern beauty - Deserts & empanadas</p>
       </div>
     </div>
   </a>
@@ -78,7 +78,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
       <div style="height: 200px; background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);"></div>
       <div style="padding: 1.5rem;">
         <h3 style="margin: 0 0 0.5rem 0;">🇵🇾 Asunción, Paraguay</h3>
-        <p style="color: #666; margin: 0;">South America's hidden gem</p>
+        <p style="color: #666; margin: 0; height: 3em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.5;">South America's hidden gem</p>
       </div>
     </div>
   </a>
@@ -88,7 +88,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
       <div style="height: 200px; background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);"></div>
       <div style="padding: 1.5rem;">
         <h3 style="margin: 0 0 0.5rem 0;">🇵🇪 Lima, Peru</h3>
-        <p style="color: #666; margin: 0;">Gastronomic capital - Ceviche & culture</p>
+        <p style="color: #666; margin: 0; height: 3em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.5;">Gastronomic capital - Ceviche & culture</p>
       </div>
     </div>
   </a>
@@ -98,7 +98,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
       <div style="height: 200px; background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);"></div>
       <div style="padding: 1.5rem;">
         <h3 style="margin: 0 0 0.5rem 0;">🇵🇪 Arequipa, Peru</h3>
-        <p style="color: #666; margin: 0;">The white city at the foot of volcanos</p>
+        <p style="color: #666; margin: 0; height: 3em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.5;">The white city at the foot of volcanos</p>
       </div>
     </div>
   </a>
@@ -116,7 +116,7 @@ For the past 10 years, we've been exploring the world at our own pace. Here are 
       <div style="height: 200px; background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);"></div>
       <div style="padding: 1.5rem;">
         <h3 style="margin: 0 0 0.5rem 0;">🇦🇺 Australia</h3>
-        <p style="color: #666; margin: 0;">8 years of Aussie life - Sydney to Perth</p>
+        <p style="color: #666; margin: 0; height: 3em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; line-height: 1.5;">8 years of Aussie life - Sydney to Perth</p>
       </div>
     </div>
   </a>
