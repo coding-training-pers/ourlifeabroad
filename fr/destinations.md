@@ -16,13 +16,13 @@ Depuis 10 ans, on explore le monde à notre rythme. Voici toutes les destination
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
 
   <div style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-    <div style="height: 200px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
-    <div style="padding: 1.5rem;">
-      <h3 style="margin: 0 0 0.5rem 0;">🇮🇩 Bali</h3>
-      <p style="color: #666; margin: 0 0 1rem 0;">L'île des dieux - Temples, rizières, et vie de digital nomad</p>
-      <a href="/ourlifeabroad/destinations/bali-fr/"> style="color: #667eea; font-weight: 500;">Voir les photos →</a>
-    </div>
+  <div style="height: 200px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+  <div style="padding: 1.5rem;">
+    <h3 style="margin: 0 0 0.5rem 0;">🇮🇩 Bali</h3>
+    <p style="color: #666; margin: 0 0 1rem 0;">L'île des dieux - Temples, rizières, et vie de digital nomad</p>
+    <a href="/ourlifeabroad/destinations/bali-fr/" style="color: #667eea; font-weight: 500;">Voir les photos →</a>
   </div>
+</div>
 
   <div style="background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
     <div style="height: 200px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>

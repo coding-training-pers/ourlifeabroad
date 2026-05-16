@@ -10,6 +10,8 @@ highlight: "Ubud et ses rizières en terrasse"
 budget_day: "25-35€"
 permalink: /destinations/bali-fr/
 cover_image: /ourlifeabroad/assets/images/destinations/bali/cover.jpg
+---
+
 
 # 🇮🇩 Bali - L'Île des Dieux
 
