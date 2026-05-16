@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: coding-training-pers/ourlifeabroad
   branch: main
 
 media_folder: "assets/images/uploads"
