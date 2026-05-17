@@ -2,6 +2,8 @@ backend:
   name: github
   repo: coding-training-pers/ourlifeabroad
   branch: main
+  base_url: https://ourlifeabroad-oauth.onrender.com
+  auth_endpoint: /auth
 
 media_folder: "assets/images/uploads"
 public_folder: "/ourlifeabroad/assets/images/uploads"
